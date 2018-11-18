@@ -15,7 +15,7 @@ docker rmi iweb
 docker build -t iweb .
 
 #启动docker image, 宿主机暴露端口 8111
-docker run --name iWebObj -d -p 8111:8080 iweb
+docker run --name iWebObj -d -p 9998:8080 iweb
 
 
 
